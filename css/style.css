@@ -1,0 +1,241 @@
+/*universal*/
+header {
+  background-image: url(../image/bannar/banna1.jpg);
+  background-size: cover;
+}
+
+header .topbar span {
+  margin-right: 20px;
+}
+
+header .topbar a {
+  margin-right: 5px;
+}
+
+header .navbar {
+  -webkit-transform: translateY(20px);
+          transform: translateY(20px);
+  background: rgba(88, 85, 85, 0.6);
+}
+
+header .navbar i {
+  color: white;
+}
+
+header .row a {
+  color: white;
+  font-weight: bold;
+}
+
+header .row .btn:hover {
+  background: #474646;
+  color: white;
+  border: 1px solid gray;
+}
+
+header .row .booking-form {
+  background: white;
+}
+
+header .row .booking-form form .book-form {
+  margin-bottom: 10px;
+  border-radius: 30px;
+  padding-left: 15px;
+  height: 40px;
+  font-size: 15px;
+}
+
+#Popular {
+  margin-top: 70px;
+}
+
+#Popular .row {
+  margin-top: 100px;
+}
+
+#Popular .row .card {
+  text-align: center;
+}
+
+#Popular .row .card .overlay {
+  position: absolute;
+  background: #9d9df0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+}
+
+#Popular .row .card .text-area {
+  position: absolute;
+  opacity: 0;
+  -webkit-transition: 2s ease;
+  transition: 2s ease;
+  font-size: 15pt;
+  text-decoration: none;
+  color: #fff;
+  margin: 20px 20px;
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+
+#Popular .row .card .icons {
+  -webkit-transform: translate(50px 10px);
+          transform: translate(50px 10px);
+}
+
+#Popular .row .card .icons i {
+  border: 1px solid #fff;
+  padding: 3px;
+  margin-top: 50px;
+}
+
+#Popular .row .card .text {
+  -webkit-transform: translate(50px 50px);
+          transform: translate(50px 50px);
+  font-size: 15px;
+}
+
+#Popular .row .card .text h6 {
+  margin-top: 30px;
+}
+
+#Popular .card:hover .overlay {
+  opacity: .5;
+}
+
+#Popular .card:hover .text-area {
+  opacity: 1;
+}
+
+#packag {
+  background: #e4e2e2;
+  margin-top: 70px;
+}
+
+#packag h4 {
+  border-bottom: 1px solid gold;
+  text-align: center;
+  width: 250px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+}
+
+#packag table span {
+  background: #dbd8d8;
+  padding: 4px 12px;
+}
+
+#packag table span:hover {
+  background: gold;
+}
+
+#issues {
+  background: #fdfbf7;
+}
+
+#issues .col-md-12 {
+  margin-bottom: 60px;
+}
+
+#issues h1 {
+  margin-top: 50px;
+}
+
+#issues .card {
+  margin-bottom: 50px;
+}
+
+#issues .card a {
+  text-decoration: none;
+  color: gold;
+}
+
+#about h4 {
+  margin-bottom: 30px;
+}
+
+#about p {
+  margin-bottom: 50px;
+}
+
+#blog .card {
+  border: none;
+  overflow: hidden;
+}
+
+#blog .card .img-area {
+  overflow: hidden;
+}
+
+#blog .card .img-area img {
+  -webkit-transition: .5s  ease-in-out;
+  transition: .5s  ease-in-out;
+}
+
+#blog .card a {
+  text-decoration: none;
+  color: black;
+}
+
+#blog .card p {
+  color: #aaa4a4;
+}
+
+#blog .card:hover img {
+  -webkit-transform: scale(1.4) !important;
+          transform: scale(1.4) !important;
+}
+
+footer {
+  background: #04091E;
+}
+
+footer .footer-top .box {
+  margin-right: 30px;
+}
+
+footer .footer-top .box img {
+  width: 100px;
+  height: 70px;
+  margin: 10px;
+}
+
+footer .footer-top .box:last-child {
+  margin-right: 0;
+}
+
+footer .footer-top h5 {
+  padding-bottom: 30px;
+}
+
+footer .footer-top p {
+  color: gray;
+}
+
+footer .footer-top a {
+  color: gray;
+}
+
+footer .footer-top i {
+  background: gold;
+  padding: 7px;
+}
+
+footer .footer-bottom p {
+  color: gray;
+}
+
+footer .footer-bottom i {
+  margin-left: 20px;
+}
+
+footer .footer-bottom i:hover {
+  color: goldenrod;
+}
+
+/*common color*/
+/*coustmer*/
+/*# sourceMappingURL=style.css.map */
